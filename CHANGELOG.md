@@ -1,5 +1,160 @@
 # Changelog
 
+## [v1.41.0](https://github.com/fboulnois/stable-diffusion-docker/compare/v1.40.0...v1.41.0) - 2023-09-22
+
+### Added
+
+* Update diffusers to 0.21.2
+
+## [v1.40.0](https://github.com/fboulnois/stable-diffusion-docker/compare/v1.39.0...v1.40.0) - 2023-08-23
+
+### Added
+
+* Add test for stable diffusion xl
+* Add stable diffusion xl
+* Update diffusers to 0.20.0
+
+## [v1.39.0](https://github.com/fboulnois/stable-diffusion-docker/compare/v1.38.0...v1.39.0) - 2023-07-19
+
+### Added
+
+* Update diffusers to 0.18.2
+* Update python to 3.11
+
+## [v1.38.0](https://github.com/fboulnois/stable-diffusion-docker/compare/v1.37.0...v1.38.0) - 2023-06-20
+
+### Added
+
+* Update diffusers to 0.17.1
+
+## [v1.37.0](https://github.com/fboulnois/stable-diffusion-docker/compare/v1.36.0...v1.37.0) - 2023-05-29
+
+### Added
+
+* Update xformers to 0.0.20
+
+## [v1.36.0](https://github.com/fboulnois/stable-diffusion-docker/compare/v1.35.0...v1.36.0) - 2023-05-19
+
+### Added
+
+* Update diffusers to 0.16.1
+
+## [v1.35.0](https://github.com/fboulnois/stable-diffusion-docker/compare/v1.34.0...v1.35.0) - 2023-04-15
+
+### Added
+
+* Add test for stable unclip variations
+* Add stable unclip variations pipeline
+* Add vae slicing to existing test
+* Add vae slicing for image batches
+* Add filename normalization to existing test
+* Update torch to v2.0.0
+
+### Fixed
+
+* Temporarily suppress pipeline UserWarning
+* Sanitize and truncate filenames
+
+## [v1.34.0](https://github.com/fboulnois/stable-diffusion-docker/compare/v1.33.0...v1.34.0) - 2023-03-17
+
+### Added
+
+* Add test for custom model and vae tiling
+* Add vae tiling for high resolution images
+* Update diffusers, onnx, and safetensors
+
+## [v1.33.0](https://github.com/fboulnois/stable-diffusion-docker/compare/v1.32.0...v1.33.0) - 2023-02-25
+
+### Added
+
+* Update diffusers to 0.13.1
+
+### Fixed
+
+* Ensure booleans do not consume other args
+
+## [v1.32.0](https://github.com/fboulnois/stable-diffusion-docker/compare/v1.31.0...v1.32.0) - 2023-02-20
+
+### Added
+
+* Ensure onnx option is tested
+* Split onnx into separate option
+
+## [v1.31.0](https://github.com/fboulnois/stable-diffusion-docker/compare/v1.30.1...v1.31.0) - 2023-02-17
+
+### Added
+
+* Add test for instruct pix2pix
+* Add instruct pix2pix pipeline
+* Update transformers to 4.26.1
+* Update onnxruntime to 1.14.0
+
+### Changed
+
+* Add full-sized image for testing
+
+## [v1.30.1](https://github.com/fboulnois/stable-diffusion-docker/compare/v1.30.0...v1.30.1) - 2023-02-03
+
+### Fixed
+
+* Switch xformers to 0.0.16 stable
+
+## [v1.30.0](https://github.com/fboulnois/stable-diffusion-docker/compare/v1.29.0...v1.30.0) - 2023-01-28
+
+### Added
+
+* Update diffusers to 0.12.1
+
+### Changed
+
+* Reorder arguments alphabetically
+* Rename option names in tests
+* Rename certain options for ease-of-use
+
+### Fixed
+
+* Download test image since img folder is gone
+* Rename option names in depth diffusion test
+
+## [v1.29.0](https://github.com/fboulnois/stable-diffusion-docker/compare/v1.28.0...v1.29.0) - 2023-01-26
+
+### Added
+
+* Add test for depth-guided diffusion
+* Add depth-guided stable diffusion
+
+## [v1.28.0](https://github.com/fboulnois/stable-diffusion-docker/compare/v1.27.0...v1.28.0) - 2023-01-26
+
+### Added
+
+* Upgrade diffusers to 0.12.0
+
+### Fixed
+
+* Suppress CLIPFeatureExtractor warning
+
+## [v1.27.0](https://github.com/fboulnois/stable-diffusion-docker/compare/v1.26.0...v1.27.0) - 2023-01-16
+
+### Added
+
+* Automatically publish new versions
+
+### Fixed
+
+* Update unstable xformers to 0.0.16rc425
+
+## [v1.26.0](https://github.com/fboulnois/stable-diffusion-docker/compare/v1.25.1...v1.26.0) - 2023-01-13
+
+### Added
+
+* Support pulling image from ghcr
+* Publish docker pipeline to ghcr
+
+### Changed
+
+* Simplify ghcr publish action
+* Move ghcr url into variable
+
 ## [v1.25.1](https://github.com/fboulnois/stable-diffusion-docker/compare/v1.25.0...v1.25.1) - 2023-01-10
 
 ### Fixed
